@@ -80,7 +80,7 @@ def main():
         
         choice = input("Enter your choice: ")
 
-        if choice == '1':  # Admin Menu
+        if choice == '1':  # Admin Menu 
             print("\n--- Admin Menu ---")
             print("1. Add Turf")
             print("2. Remove Turf")
