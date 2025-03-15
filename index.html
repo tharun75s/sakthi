@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Complaint Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Complaint Register</h1>
+        
+        <form id="complaintForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+            
+            <label for="complaint">Complaint:</label>
+            <textarea id="complaint" required placeholder="Enter your complaint"></textarea>
+            
+            <button type="submit">Submit Complaint</button>
+        </form>
+        
+        <div id="complaintsList">
+            <h2>All Complaints</h2>
+            <ul id="complaints"></ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
